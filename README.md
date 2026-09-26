@@ -41,6 +41,7 @@ Gói renderer hiện có dữ liệu minh họa **4 cặp (8 lựa chọn)**. Mu
 | `samples/` | Video mẫu và ảnh preview được tạo từ project |
 | `docs/HUONG_DAN_CAI_DAT.pdf` | Hướng dẫn minh họa cho người mới |
 | `HUONG_DAN_SETUP.md` | Hướng dẫn đầy đủ dạng văn bản |
+| `THIRD_PARTY_NOTICES.md` | Ghi chú bản quyền phần mềm, dịch vụ và tài nguyên bên thứ ba |
 | `LICENSE.md` | Điều khoản cộng đồng: tự dùng/tạo video, không bán lại hoặc đóng gói lại bộ mã nguồn |
 
 ## Cấu hình giọng đọc
@@ -49,6 +50,8 @@ Gói renderer hiện có dữ liệu minh họa **4 cặp (8 lựa chọn)**. Mu
 - Dùng voice ID được cấp phép cho tài khoản của bạn; model mặc định là `eleven_v3`.
 - CIT Voice Studio phải chạy tại địa chỉ bạn truy cập được. `127.0.0.1` chỉ đúng khi CIT chạy trên chính máy đó.
 - Không đưa `.env`, API key, token, giọng mẫu cá nhân hoặc video render vào repo.
+
+Chi tiết attribution và trách nhiệm bản quyền nằm trong [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md). CIT Voice Studio là phần mềm bên ngoài do [Cường IT phát triển](https://github.com/Cuongyd196/cit-voice-studio), không phải mã nguồn được phân phối kèm theo template.
 
 ## Tạo và render một tập
 
@@ -69,6 +72,7 @@ Trước khi render, đặt ảnh hợp lệ cho mỗi lựa chọn trong `video
 - Xem `video-template/ASSET_NOTES.md` trước khi thêm media.
 - Bộ mã nguồn dùng điều khoản cộng đồng riêng trong [`LICENSE.md`](LICENSE.md): miễn phí tải, cài và tự dùng để tạo video; không bán lại, đóng gói lại hoặc phân phối bộ mã nguồn như một sản phẩm riêng.
 - Đây là điều khoản sử dụng riêng, không phải giấy phép mã nguồn mở chuẩn như MIT. Quyền đối với ảnh, nhạc, giọng đọc, API và video đầu ra còn phụ thuộc giấy phép của từng tài nguyên/dịch vụ.
+- Đọc [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) để xem attribution cho CIT Voice Studio, VieNeu-TTS, ElevenLabs, Python, FFmpeg và nguyên tắc kiểm tra quyền của media.
 
 ## Cập nhật
 

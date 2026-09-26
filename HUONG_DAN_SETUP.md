@@ -99,6 +99,15 @@ File cuối là `reference_mode_b_source_template_hybrid.mp4`. Nếu đổi nộ
 
 Tải ZIP ở **Releases → bản mới nhất** rồi đọc ghi chú thay đổi. Nếu bạn đã sửa project riêng, hãy sao lưu nội dung trước khi thay file từ phiên bản mới. Repo tạo từ template không tự nhận các cập nhật của repo gốc.
 
+## Bản quyền phần mềm và tài nguyên bên thứ ba
+
+Trước khi cài hoặc phát hành video, đọc [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md). Tài liệu này ghi rõ các thành phần không thuộc bộ mã nguồn, cách attribution và trách nhiệm kiểm tra giấy phép.
+
+- **CIT Voice Studio** là phần mềm bên ngoài do [Cường IT phát triển](https://github.com/Cuongyd196/cit-voice-studio). Repo chính thức ghi nhận Apache License 2.0 và attribution cho VieNeu-TTS; hãy đọc `LICENSE` và `NOTICE` ở repo chính thức trước khi phân phối hoặc dùng thương mại.
+- **ElevenLabs** là dịch vụ API bên ngoài. Mỗi người dùng phải dùng tài khoản, API key, voice ID và quyền sử dụng voice của chính mình, đồng thời tuân theo điều khoản hiện hành của ElevenLabs.
+- **Python, FFmpeg, Pillow, Requests** và các công cụ PDF được cài ở môi trường riêng. Hãy giữ lại license notice của đúng phiên bản/build đã cài; repo này không cấp thêm quyền đối với các phần mềm đó.
+- Ảnh, icon, nhạc, sound effect, font và video đưa vào tập mới phải có quyền sử dụng phù hợp. Điều khoản của repo này không thay thế điều khoản của các dịch vụ hay tài nguyên bên ngoài.
+
 ## Quyền sử dụng
 
 Điều khoản cộng đồng nằm trong `LICENSE.md`: mọi người được miễn phí tải, cài và tự dùng bộ mã nguồn để tạo video; không được bán lại, đóng gói lại hoặc phân phối bộ mã nguồn như một sản phẩm riêng. Đây là điều khoản riêng, không phải giấy phép mã nguồn mở chuẩn. Ảnh, nhạc, giọng đọc, API và các tài nguyên bên thứ ba vẫn tuân theo giấy phép/điều khoản riêng của chúng.

@@ -388,7 +388,9 @@ def build() -> None:
     story += [issue_table, Spacer(1, 5 * mm),
               note_box("Khi nhờ hỗ trợ, chỉ gửi log đã xóa API key, token, email cá nhân và thông tin truy cập nội bộ.", colors.HexColor("#FFF5DF")),
               Spacer(1, 5 * mm), p("Tham khảo", "GuideH2"),
-              p("<link href='https://www.python.org/downloads/windows/' color='#1F668A'>Python for Windows</link>  |  <link href='https://www.ffmpeg.org/download.html' color='#1F668A'>FFmpeg</link>  |  <link href='https://elevenlabs.io/docs/eleven-api/quickstart' color='#1F668A'>ElevenLabs API quickstart</link>", "GuideSmall")]
+              p("<link href='https://www.python.org/downloads/windows/' color='#1F668A'>Python for Windows</link>  |  <link href='https://www.ffmpeg.org/download.html' color='#1F668A'>FFmpeg</link>  |  <link href='https://elevenlabs.io/docs/eleven-api/quickstart' color='#1F668A'>ElevenLabs API quickstart</link>", "GuideSmall"),
+              Spacer(1, 3 * mm),
+              p("Bản quyền phần mềm: đọc THIRD_PARTY_NOTICES.md. CIT Voice Studio là phần mềm bên ngoài do <link href='https://github.com/Cuongyd196/cit-voice-studio' color='#1F668A'>Cường IT phát triển</link>, dùng theo license và NOTICE của repo chính thức; template này chỉ kết nối tới endpoint của bạn và không phân phối CIT.", "GuideSmall")]
 
     doc.build(story, onFirstPage=page_chrome, onLaterPages=page_chrome)
     print(OUTPUT)
