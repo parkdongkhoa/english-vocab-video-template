@@ -16,8 +16,9 @@
 
 Repo có một bản render mẫu để người dùng hình dung kết quả trước khi cấu hình giọng đọc:
 
-- [Mode B - Listen & Choose (bản xem trước không có voice)](samples/mode-b-silent-preview.mp4)
-- [Ảnh xem nhanh](samples/mode-b-silent-preview-cover.png)
+[![Xem preview Mode B](samples/mode-b-silent-preview.gif)](samples/mode-b-silent-preview.mp4)
+
+Bấm vào preview để mở video MP4 đầy đủ: [Mode B - Listen & Choose](samples/mode-b-silent-preview.mp4). Nếu trình duyệt không phát trực tiếp, hãy chọn **Download raw file** hoặc tải file về máy.
 
 Video mẫu được tạo từ renderer đi kèm và dùng để minh họa bố cục, timer, lựa chọn từ và icon. Video tham khảo từ nguồn bên ngoài không được đưa vào repo; chỉ thêm media mới khi đã xác nhận quyền chia sẻ công khai.
 

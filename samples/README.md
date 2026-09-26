@@ -6,6 +6,9 @@ Thư mục này chứa các video minh họa được tạo từ project hiện 
 
 - `mode-b-silent-preview.mp4`: bản render Mode B, không có voice, dùng để kiểm tra bố cục, timer, cặp lựa chọn và icon.
 - `mode-b-silent-preview-cover.png`: ảnh đại diện để xem nhanh trên GitHub.
+- `mode-b-silent-preview.gif`: preview động ngắn để hiển thị trực tiếp trong README.
+
+GitHub không phát mọi file MP4 nội tuyến trong README. Vì vậy README dùng GIF preview để người dùng nhìn thấy chuyển động ngay; bấm vào GIF để mở bản MP4 đầy đủ.
 
 ## Quyền sử dụng media
 
