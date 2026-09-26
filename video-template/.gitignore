@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+reference_mode_b_source_template_frames/
+reference_mode_b_source_template_silent.mp4
+reference_mode_b_source_template_hybrid.mp4

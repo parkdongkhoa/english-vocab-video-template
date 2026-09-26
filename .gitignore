@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+video-template/audio_hybrid/
+video-template/audio_cit/
+video-template/module03_music.wav
+video-template/mode_a_tick.wav
+video-template/reference_mode_*_frames/
+video-template/*.mp4
+video-template/reference_mode_*_silent.mp4
+video-template/reference_mode_*_hybrid.mp4
+video-template/out/
+video-template/output/

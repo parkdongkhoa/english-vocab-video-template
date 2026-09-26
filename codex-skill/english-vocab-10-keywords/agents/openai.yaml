@@ -1,0 +1,5 @@
+interface:
+  display_name: "English Vocab - Listen & Choose"
+  short_description: "Reusable Vietnamese-English listen-and-choose video template"
+  default_prompt: "Use $english-vocab-10-keywords to create or revise a Vietnamese-English listen-and-choose video with the approved green center timer, explanations, hybrid voice, and CTA."
+  allow_implicit_invocation: true
