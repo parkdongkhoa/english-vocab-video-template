@@ -311,7 +311,8 @@ def build() -> None:
         ("BOTTOMPADDING", (0, 0), (-1, -1), 8),
     ]))
     story += [table, Spacer(1, 8 * mm), p("Luồng tổng quát", "GuideH2"), WorkflowDiagram(),
-              Spacer(1, 5 * mm), p("Thời gian cài phụ thuộc vào máy tính và việc bạn đã có quyền truy cập dịch vụ giọng đọc hay chưa.", "GuideSmall"), PageBreak()]
+              Spacer(1, 5 * mm), p("Video mẫu đi kèm: samples/mode-b-silent-preview.mp4. Đây là bản render Mode B không có voice, dùng để kiểm tra bố cục, timer, cặp lựa chọn và icon trước khi cấu hình dịch vụ giọng đọc.", "GuideSmall"),
+              p("Thời gian cài phụ thuộc vào máy tính và việc bạn đã có quyền truy cập dịch vụ giọng đọc hay chưa.", "GuideSmall"), PageBreak()]
 
     story += [p("1. Tải bộ mẫu từ GitHub", "GuideH1"),
               p("Bạn không cần cài Git để tải và sử dụng. Mở link repo do người chia sẻ cung cấp, sau đó tải ZIP.", "GuideBody"),

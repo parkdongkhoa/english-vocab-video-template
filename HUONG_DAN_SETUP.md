@@ -8,6 +8,7 @@
 - Project `video-template` dựng video dọc Mode B: hai lựa chọn, thanh xanh co vào tâm, đáp án, giải thích tiếng Việt và CTA cuối.
 - Mẫu dữ liệu đi kèm có 4 cặp từ để minh họa. Muốn hiển thị 10 lựa chọn, dùng 5 cặp.
 - Bản public không kèm ảnh trích từ video tham khảo, nhạc mẫu hoặc âm thanh chưa rõ quyền. Người dùng cần dùng ảnh do mình tạo hoặc có quyền sử dụng.
+- Repo có kèm một video xem trước tại `samples/mode-b-silent-preview.mp4` để người mới hình dung bố cục trước khi cấu hình voice. Đây là bản render mẫu không có voice; video tham khảo từ nguồn bên ngoài không được phân phối trong repo.
 
 ## Cần chuẩn bị
 
@@ -60,7 +61,7 @@ Nếu Windows hỏi có muốn chạy file hay không, kiểm tra file nằm tro
 4. Nếu CIT yêu cầu xác thực, điền key vào `CIT_API_KEY`.
 5. Lưu file `.env`.
 
-Không gửi file `.env` cho người khác, không chụp màn hình lộ key và không đưa key vào GitHub. Người nhận ở ngoài mạng nội bộ không thể dùng địa chỉ riêng như `192.168.x.x` của máy anh; mỗi người cần một CIT endpoint mà máy họ truy cập được.
+Không gửi file `.env` cho người khác, không chụp màn hình lộ key và không đưa key vào GitHub. Người dùng ở ngoài mạng nội bộ không thể dùng địa chỉ riêng như `192.168.x.x`; mỗi người cần một CIT endpoint mà máy của họ truy cập được.
 
 ## 6. Chuẩn bị hình và nội dung
 
@@ -96,7 +97,7 @@ File cuối là `reference_mode_b_source_template_hybrid.mp4`. Nếu đổi nộ
 
 ## Cập nhật template
 
-Tải ZIP ở **Releases → bản mới nhất** rồi đọc ghi chú thay đổi. Nếu anh đã sửa project riêng, sao lưu nội dung của mình trước khi thay file từ phiên bản mới. Repo tạo từ template không tự nhận các cập nhật của repo gốc.
+Tải ZIP ở **Releases → bản mới nhất** rồi đọc ghi chú thay đổi. Nếu bạn đã sửa project riêng, hãy sao lưu nội dung trước khi thay file từ phiên bản mới. Repo tạo từ template không tự nhận các cập nhật của repo gốc.
 
 ## Quyền sử dụng
 

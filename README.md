@@ -1,6 +1,6 @@
 # English Vocab Video Starter
 
-**Tạo video tiếng Anh dọc theo format Listen & Choose đã chốt**, có lời dẫn tiếng Việt, phát âm tiếng Anh, thời gian đoán, giải thích sau đáp án và CTA cuối video.
+**Bộ khởi tạo video học tiếng Anh dọc theo format Listen & Choose**, có lời dẫn tiếng Việt, phát âm tiếng Anh, thời gian đoán, giải thích sau đáp án và CTA cuối video.
 
 > Đây là bộ khởi đầu dành cho Codex Desktop trên Windows. Người dùng cần tự cấu hình tài khoản ElevenLabs và một dịch vụ CIT Voice Studio có thể truy cập từ máy của mình.
 
@@ -11,6 +11,15 @@
 3. Cài Python 3.12 x64 và FFmpeg, sau đó chạy `video-template\setup_windows.bat`.
 4. Cài skill `codex-skill\english-vocab-10-keywords` vào `%USERPROFILE%\.codex\skills\`.
 5. Điền cấu hình giọng đọc riêng trong `video-template\.env`, mở thư mục `video-template` bằng Codex và yêu cầu tạo tập mới.
+
+## Video mẫu
+
+Repo có một bản render mẫu để người dùng hình dung kết quả trước khi cấu hình giọng đọc:
+
+- [Mode B - Listen & Choose (bản xem trước không có voice)](samples/mode-b-silent-preview.mp4)
+- [Ảnh xem nhanh](samples/mode-b-silent-preview-cover.png)
+
+Video mẫu được tạo từ renderer đi kèm và dùng để minh họa bố cục, timer, lựa chọn từ và icon. Video tham khảo từ nguồn bên ngoài không được đưa vào repo; chỉ thêm media mới khi đã xác nhận quyền chia sẻ công khai.
 
 ## Format video
 
@@ -28,6 +37,7 @@ Gói renderer hiện có dữ liệu minh họa **4 cặp (8 lựa chọn)**. Mu
 | --- | --- |
 | `codex-skill/english-vocab-10-keywords/` | Skill Codex dùng lại cho các tập mới |
 | `video-template/` | Renderer, dữ liệu cặp từ, timing, mixer và script cài đặt |
+| `samples/` | Video mẫu và ảnh preview được tạo từ project |
 | `docs/HUONG_DAN_CAI_DAT.pdf` | Hướng dẫn minh họa cho người mới |
 | `HUONG_DAN_SETUP.md` | Hướng dẫn đầy đủ dạng văn bản |
 | `LICENSE.md` | Điều khoản cộng đồng: tự dùng/tạo video, không bán lại hoặc đóng gói lại bộ mã nguồn |
@@ -53,7 +63,7 @@ Trước khi render, đặt ảnh hợp lệ cho mỗi lựa chọn trong `video
 
 ## An toàn, tài nguyên và giấy phép
 
-- Chỉ đưa lên repo những mã nguồn, hình ảnh, âm thanh mà anh có quyền chia sẻ.
+- Chỉ đưa lên repo những mã nguồn, hình ảnh, âm thanh và video mà bạn có quyền chia sẻ.
 - File `.env` và khóa dịch vụ luôn ở máy người dùng; `.gitignore` đã loại trừ các file đó.
 - Xem `video-template/ASSET_NOTES.md` trước khi thêm media.
 - Bộ mã nguồn dùng điều khoản cộng đồng riêng trong [`LICENSE.md`](LICENSE.md): miễn phí tải, cài và tự dùng để tạo video; không bán lại, đóng gói lại hoặc phân phối bộ mã nguồn như một sản phẩm riêng.
